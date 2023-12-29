@@ -6,34 +6,75 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context=".ui.OtpActivity"
-    android:background="@color/black">
+    tools:context=".LoginActivity"
+    android:gravity="center_vertical"
+    android:background="@drawable/img_1">
 
-    <TextView
-        android:id="@+id/title"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/app_name"
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/icon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:layout_centerHorizontal="true"
-        android:textColor="@color/white"
-        android:textSize="24sp"
+        android:src="@drawable/img_2"
         />
 
-    <EditText
-        android:id="@+id/otp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="OTP"
-        android:inputType="text"
-        android:textColorHint="@color/hintcolor"
-        android:layout_below="@+id/title"/>
 
-    <Button
-        android:id="@+id/button"
+    <LinearLayout
+        android:id="@+id/box"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/otp"
-        android:layout_marginTop="16dp"
-        android:text="Verify"/>
+        android:background="@color/black"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_below="@id/icon"
+        android:orientation="vertical"
+        android:padding="40dp">
+
+
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:text="Enter the 6-digit OTP sent to your mobile number"
+            android:textColor="#cdcdcd"
+            android:textSize="12sp"
+           />
+
+        <EditText
+            android:id="@+id/otp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title"
+            android:layout_marginTop="24dp"
+            android:hint="Enter OTP"
+            android:inputType="text"
+            android:textColor="@color/white"
+            android:padding="14dp"
+            android:textSize="14sp"
+            android:background="@drawable/field_bg"
+            android:textColorHint="@color/hintcolor" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@id/field_phone"
+            android:layout_marginTop="28dp"
+            android:text="Verify"
+            android:textSize="18sp" />
+    </LinearLayout>
+
 
 </RelativeLayout>

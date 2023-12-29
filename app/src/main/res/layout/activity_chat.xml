@@ -98,6 +98,9 @@
             android:background="@android:color/transparent"
             android:hint="Enter your message"
             android:padding="8dp"
+            android:drawableStart="@drawable/baseline_attach_file_24"
+            android:drawableEnd="@drawable/baseline_camera_alt_24"
+            android:drawablePadding="8dp"
             android:textSize="14sp" />
     </com.google.android.material.card.MaterialCardView>
 
