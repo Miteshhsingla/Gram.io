@@ -55,11 +55,6 @@ implementation 'com.google.firebase:firebase-auth:X.X.X'
 implementation 'com.google.firebase:firebase-storage:X.X.X'
 ```
 
-Make sure to replace `X.X.X` with the latest version numbers.
-
-## Contributing
-
-We welcome contributions! If you'd like to contribute to Gram.io, please follow the [contribution guidelines](CONTRIBUTING.md).
 
 ## License
 
@@ -67,6 +62,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-For any inquiries or issues, please contact our support team at support@gram.io.
+For any inquiries or issues, please contact our support team at miteshhsingla@gmail.com.
 
 Happy chatting with Gram.io! 🚀
