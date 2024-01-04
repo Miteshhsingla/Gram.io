@@ -58,10 +58,23 @@ implementation 'com.google.firebase:firebase-storage:X.X.X'
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+
+This project is licensed under the [MIT License!(LICENSE).
 
 ## Contact
 
-For any inquiries or issues, please contact our support team at miteshhsingla@gmail.com.
+For any inquiries or issues, please contact at miteshhsingla@gmail.com.
 
 Happy chatting with Gram.io! 🚀
+
+## Screenshots
+![gramio1](https://github.com/Miteshhsingla/Gram.io/assets/97623864/7e98829c-22c6-4a6d-95e2-8731f07b7c70)
+![gramio2](https://github.com/Miteshhsingla/Gram.io/assets/97623864/3e0e32e0-fa95-494f-9470-6f6636499cf2)
+![Screenshot 2024-01-04 at 6 11 18 PM](https://github.com/Miteshhsingla/Gram.io/assets/97623864/b5b8525d-614b-47e1-892d-22547f2c0407)
+]
+![WhatsApp Image 2024-01-04 at 6 10 03 PM](https://github.com/Miteshhsingla/Gram.io/assets/97623864/f8ad7a51-2982-4e5b-99f8-8e2c7b979db5)
+![WhatsApp Image 2024-01-04 at 6 10 02 PM](https://github.com/Miteshhsingla/Gram.io/assets/97623864/1b959c38-6f6f-4f67-8a59-42af6ebdf215)
+
+
+
+
