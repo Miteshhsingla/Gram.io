@@ -13,8 +13,8 @@ Gram.io is a feature-rich Android chat application developed in Kotlin, offering
 
 ## Requirements
 
-- Android Studio (version X.X.X)
-- Kotlin (version X.X.X)
+- Android Studio 
+- Kotlin 
 - Firebase Account (for Realtime Database, Storage, and Authentication)
 
 ## Getting Started
